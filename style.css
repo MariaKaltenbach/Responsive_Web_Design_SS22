@@ -1,0 +1,10 @@
+.topnav {
+    color: white;
+    background-color: black;
+    overflow: hidden;
+    height: 35px;
+}
+
+.topnav a:hover {
+    color: #fe0000ff;
+}
