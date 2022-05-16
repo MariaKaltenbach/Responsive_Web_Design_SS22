@@ -33,5 +33,6 @@ video {
 h1,
 h2,
 p {
-    text-align: center;
+    font-family: sans-serif;
+    width: 800px;
 }
