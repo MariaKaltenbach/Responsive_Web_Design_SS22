@@ -26,6 +26,12 @@
 }
 
 video {
-    margin-left: -8px;
-    margin-top: -15px;
+    margin-top: -14px;
+    margin-left: -20px;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
 }
