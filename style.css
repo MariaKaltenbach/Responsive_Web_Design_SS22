@@ -1,63 +1,93 @@
-.topnav {
-    background-color: black;
-    overflow: hidden;
-    height: 40px;
-    margin-top: -8px;
-    margin-left: -8px;
-    margin-right: -8px;
-}
-
-.topnav a:hover {
-    color: #fe0000ff;
-}
-
-.topnav img {
-    width: 130px;
-    height: 30px;
-    padding-top: 5px;
-    margin-left: 10px;
-}
-
-#symbol {
-    width: 30px;
-    height: 30px;
-    margin-left: 1000px;
-}
-
-video {
-    margin-top: -14px;
-    margin-left: -20px;
-}
-
-h1,
-h2,
-h3,
-p {
-    text-align: center;
-    font-family: sans-serif;
-}
-
-img {
-    width: 330px;
-    height: 300px;
-}
-
-.footer {
-    background-color: black;
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-bottom: -15px;
-    color: white;
-    padding-bottom: 15px;
-}
-
-.footer p {
-    font-size: 12px;
-}
-
-#footerlogo {
-    width: 150px;
-    height: 40px;
-    margin-top: 15px;
-    margin-left: 520px;
-}
+    .topnav {
+        background-color: black;
+        overflow: hidden;
+        height: 40px;
+        margin-top: -8px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    
+    .topnav a:hover {
+        color: #fe0000ff;
+    }
+    
+    .topnav img {
+        width: 130px;
+        height: 30px;
+        padding-top: 5px;
+        margin-left: 10px;
+    }
+    
+    #symbol {
+        width: 30px;
+        height: 30px;
+        margin-left: 1000px;
+    }
+    
+    video {
+        margin-top: -14px;
+        margin-left: -20px;
+    }
+    
+    #Video2 {
+        margin-top: -25px;
+        float: right;
+    }
+    
+    h1,
+    h2,
+    h3,
+    p {
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    img {
+        width: 330px;
+        height: 300px;
+    }
+    
+    button {
+        width: 170px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        border-top: none;
+    }
+    
+    button:hover {
+        background-color: #fe0000ff;
+    }
+    
+    .Testimonial {
+        width: 300px;
+    }
+    
+    #SocialMedia {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .footer {
+        background-color: black;
+        padding-top: 15px;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-bottom: -15px;
+        color: white;
+        padding-bottom: 15px;
+    }
+    
+    .footer p {
+        font-size: 12px;
+    }
+    
+    #footerlogo {
+        display: block;
+        margin: auto;
+        width: 150px;
+        height: 40px;
+    }
