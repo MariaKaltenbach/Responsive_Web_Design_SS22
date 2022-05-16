@@ -2,9 +2,30 @@
     color: white;
     background-color: black;
     overflow: hidden;
-    height: 35px;
+    height: 40px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 .topnav a:hover {
     color: #fe0000ff;
+}
+
+.topnav img {
+    width: 130px;
+    height: 30px;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+#symbol {
+    width: 30px;
+    height: 30px;
+    margin-left: 1010px;
+}
+
+video {
+    margin-left: -8px;
+    margin-top: -15px;
 }
