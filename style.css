@@ -1,8 +1,9 @@
     .topnav {
         background-color: black;
         overflow: hidden;
+        width: 1205px;
         height: 40px;
-        margin-top: -8px;
+        margin-top: -9px;
         margin-left: -8px;
         margin-right: -8px;
     }
@@ -25,13 +26,18 @@
     }
     
     video {
-        margin-top: -14px;
+        margin-top: -8px;
         margin-left: -20px;
     }
     
     #Video2 {
         margin-top: -25px;
+        margin-right: -205px;
         float: right;
+    }
+    
+    #Video3 {
+        margin-top: 310px;
     }
     
     h1,
@@ -40,11 +46,6 @@
     p {
         text-align: center;
         font-family: sans-serif;
-    }
-    
-    img {
-        width: 330px;
-        height: 300px;
     }
     
     button {
@@ -62,17 +63,14 @@
         background-color: #fe0000ff;
     }
     
-    .Testimonial {
-        width: 300px;
-    }
-    
-    #SocialMedia {
-        width: 50px;
-        height: 50px;
+    #button {
+        display: block;
+        margin: auto;
     }
     
     .footer {
         background-color: black;
+        width: 1205px;
         padding-top: 15px;
         margin-left: -8px;
         margin-right: -8px;
