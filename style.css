@@ -1,15 +1,12 @@
-.topnav {
-    background-color: black;
-    overflow: hidden;
-    width: auto;
-    height: 40px;
-    margin-top: -9px;
-    margin-left: -8px;
-    margin-right: -8px;
+body {
+    width: 100%;
 }
 
-.topnav a:hover {
-    color: #fe0000ff;
+.topnav {
+    background-color: black;
+    width: 100%;
+    margin-top: -8px;
+    margin-left: -8px;
 }
 
 .topnav img {
@@ -22,65 +19,72 @@
 #symbol {
     width: 30px;
     height: 30px;
-    margin-left: 1000px;
+    margin-left: 80%;
 }
 
-div.Produkt img {
-    width: 330px;
-    height: 300px;
-    margin-left: 45px;
+.Produkt img {
+    width: 25%;
+    height: auto;
+    padding-right: 2%;
+    margin-left: 5%;
 }
 
 .Produkt b {
-    margin-left: 190px;
+    margin-left: 10%;
     margin-top: 15px;
+    padding-left: 5%;
+    padding-right: 13%;
     display: inline-block;
-    margin-right: 150px;
 }
 
 .Produkt p {
-    margin-left: 160px;
+    margin-left: 11%;
     margin-top: 15px;
+    padding-right: 12%;
     display: inline-block;
-    margin-right: 125px;
     font-size: 12px;
 }
 
 .Produkt button {
-    margin-left: 120px;
+    margin-left: 8%;
+    margin-right: 7%;
     margin-top: 15px;
-    margin-right: 90px;
     margin-bottom: 30px;
 }
 
 .SocialMedia img {
-    width: 50px;
-    height: 50px;
-    margin-left: 150px;
+    width: 5%;
+    height: 5%;
+    margin-left: 12%;
     padding-bottom: 15px;
     padding-top: 15px;
 }
 
 #Video1 {
-    width: 1183px;
+    width: 100%;
     height: auto;
     margin-left: -8px;
-    margin-top: none;
 }
 
+#Headerbild2,
 #Video2 {
-    height: auto;
-    width: 590px;
+    width: 50%;
+    margin-right: 8px;
     margin-top: -4px;
-    margin-right: -8px;
     float: right;
 }
 
 #Video3 {
-    height: auto;
-    width: 593px;
-    margin-top: -200px;
+    width: 50%;
+    margin-left: -9px;
+    margin-top: -2px;
+}
+
+#Headerbild1 {
+    width: 50%;
     margin-left: -8px;
+    margin-top: -5px;
+    float: left;
 }
 
 h1,
@@ -89,11 +93,7 @@ h3,
 p {
     text-align: center;
     font-family: sans-serif;
-}
-
-#Einleitungstext {
-    padding-left: 250px;
-    padding-right: 250px;
+    margin-top: 30px;
 }
 
 button {
@@ -118,21 +118,21 @@ button:hover {
 }
 
 .Testimonials img {
-    width: 250px;
-    height: 250px;
-    padding-right: 20px;
-    margin-left: 95px;
-    margin-bottom: 15px;
+    width: 25%;
+    height: auto;
+    padding-right: 2%;
+    margin-left: 5%;
 }
 
 .Testimonials p,
 i {
     margin-top: 15px;
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 5%;
     padding-right: 10px;
     width: 250px;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .Testimonials p {
@@ -141,17 +141,10 @@ i {
 
 .footer {
     background-color: black;
-    width: auto;
+    color: white;
+    width: 100%;
     padding-top: 15px;
     margin-left: -8px;
-    margin-right: -8px;
-    margin-bottom: -15px;
-    color: white;
-    padding-bottom: 15px;
-}
-
-.footer p {
-    font-size: 12px;
 }
 
 #footerlogo {
@@ -162,54 +155,8 @@ i {
 }
 
 .footer p {
-    margin-left: 110px;
+    font-size: 12px;
+    margin-left: 7%;
     display: inline-block;
     line-height: 30px;
-}
-
-#Headerbild1 {
-    width: 593px;
-    height: 348px;
-    float: left;
-    margin-left: -8px;
-    margin-top: -20px;
-}
-
-#Headerbild2 {
-    width: 590px;
-    height: auto;
-    margin-left: 585px;
-}
-
-@media (min-width: 900px) {
-    #Video1 {
-        width: 1200px;
-        height: auto;
-        margin-left: -8px;
-        margin-top: none;
-    }
-    #Headerbild1 {
-        width: 600px;
-        height: 350px;
-        float: left;
-        margin-top: -20px;
-    }
-    #Video2 {
-        height: 350px;
-        width: 600px;
-        margin-top: -11px;
-        float: right;
-    }
-    #Headerbild2 {
-        width: 600px;
-        height: auto;
-        margin-top: -8px;
-        margin-left: 593px;
-    }
-    #Video3 {
-        height: 350px;
-        width: 602px;
-        margin-top: -400px;
-        margin-bottom: 12px;
-    }
 }
