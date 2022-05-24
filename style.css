@@ -156,8 +156,7 @@ body {
     }
 }
 
-
-/*.topnav {
+.topnav {
     height: 65px;
 }
 
@@ -275,4 +274,4 @@ h3 {
 
 p {
     font-size: 25px;
-}*/
+}
