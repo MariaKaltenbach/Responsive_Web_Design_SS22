@@ -157,20 +157,20 @@ body {
 }
 
 .topnav {
-    height: 65px;
+    height: 110px;
 }
 
 .topnav img {
-    width: 160px;
-    height: 50px;
+    width: 260px;
+    height: 90px;
     padding-top: 10px;
     margin-left: 10px;
 }
 
 #symbol {
-    width: 50px;
-    height: 50px;
-    margin-left: 75%;
+    width: 90px;
+    height: 90px;
+    margin-left: 60%;
 }
 
 #Headerbild2 {
@@ -198,12 +198,32 @@ body {
 
 .Produkt b {
     font-size: 40px;
-    margin-left: 40%;
+    margin-left: -500px;
+    margin-top: -1400px;
+    position: absolute;
+}
+
+#one {
+    margin-top: -320px;
+}
+
+#two {
+    margin-top: 760px;
 }
 
 .Produkt p {
     font-size: 30px;
-    margin-left: 38%;
+    position: absolute;
+    margin-left: -515px;
+    margin-top: -1320px;
+}
+
+#eins {
+    margin-top: -250px;
+}
+
+#zwei {
+    margin-top: 830px;
 }
 
 .Produkt button,
@@ -212,6 +232,24 @@ body {
     height: 80px;
     font-size: 30px;
     margin-left: 30%;
+}
+
+.uno {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -2350px;
+}
+
+.dos {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -1270px;
+}
+
+.tres {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -200px;
 }
 
 .Testimonials img {
@@ -231,6 +269,7 @@ i {
     width: 250px;
     text-align: center;
     margin-bottom: 15px;
+    font-size: 25px;
 }
 
 .Testimonials p {
@@ -260,6 +299,11 @@ i {
     text-align: center;
 }
 
+#Einleitungstext {
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
 h1 {
     font-size: 70px;
 }
@@ -269,9 +313,5 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
-}
-
-p {
-    font-size: 25px;
+    font-size: 40px;
 }
