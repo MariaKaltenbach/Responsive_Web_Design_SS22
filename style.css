@@ -41,8 +41,12 @@ body {
         display: inline-block;
         font-size: 12px;
     }
-    .Produkt button {
+    .uno,
+    .dos,
+    .tres {
+        display: inline;
         margin-left: 9%;
+        padding-right: 5px;
         margin-right: 5%;
         margin-top: 15px;
         margin-bottom: 30px;
@@ -161,7 +165,7 @@ body {
 }
 
 .topnav img {
-    width: 260px;
+    width: 270px;
     height: 90px;
     padding-top: 10px;
     margin-left: 10px;
@@ -236,44 +240,75 @@ body {
 
 .uno {
     position: absolute;
-    margin-left: 180px;
-    margin-top: -2350px;
+    margin-left: -720px;
+    margin-top: -1250px;
 }
 
 .dos {
     position: absolute;
-    margin-left: 180px;
-    margin-top: -1270px;
+    margin-left: -720px;
+    margin-top: -180px;
 }
 
 .tres {
     position: absolute;
-    margin-left: 180px;
-    margin-top: -200px;
+    margin-left: -720px;
+    margin-top: 900px;
 }
 
 .Testimonials img {
-    width: 40%;
+    width: 60%;
     height: auto;
-    padding-top: 30px;
-    float: left;
-    margin-right: 80%;
+    padding-bottom: 450px;
+    margin-left: 20%;
 }
 
 .Testimonials p,
 i {
-    margin-top: 15px;
-    display: inline-block;
-    margin-left: 5%;
-    padding-right: 10px;
-    width: 250px;
+    width: 600px;
     text-align: center;
     margin-bottom: 15px;
-    font-size: 25px;
+    font-size: 40px;
+}
+
+#Emilia {
+    position: absolute;
+    margin-left: -600px;
+    margin-top: -1470px;
+}
+
+#Jonas {
+    position: absolute;
+    margin-left: -600px;
+    margin-top: -430px;
+}
+
+#Alma {
+    position: absolute;
+    margin-left: -600px;
+    margin-top: 620px;
 }
 
 .Testimonials p {
     margin-bottom: 30px;
+}
+
+#Schäfer {
+    position: absolute;
+    margin-left: -600px;
+    margin-top: -1180px;
+}
+
+#Braun {
+    position: absolute;
+    margin-left: -600px;
+    margin-top: -100px;
+}
+
+#Larsen {
+    position: absolute;
+    margin-left: -600px;
+    margin-top: 920px;
 }
 
 .SocialMedia img {
@@ -300,18 +335,22 @@ i {
 }
 
 #Einleitungstext {
-    font-size: 30px;
+    font-size: 34px;
     padding-bottom: 50px;
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 80px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 60px;
+    width: 90%;
+    margin-left: 5%;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 50px;
+    width: 90%;
+    margin-left: 5%;
 }
