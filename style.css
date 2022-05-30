@@ -1,356 +1,356 @@
-body {
-    width: 100%;
-}
-
-@media screen and (min-width:450px) {
-    .topnav {
-        background-color: black;
+    body {
         width: 100%;
-        height: 20x;
-        margin-top: -8px;
-        margin-left: -8px;
     }
+    
+    @media only screen and (min-width: 601px) {
+        .topnav {
+            background-color: black;
+            width: 100%;
+            height: 20x;
+            margin-top: -8px;
+            margin-left: -8px;
+        }
+        .topnav img {
+            width: 130px;
+            height: 30px;
+            padding-top: 5px;
+            margin-left: 10px;
+        }
+        #symbol {
+            width: 30px;
+            height: 30px;
+            margin-left: 80%;
+        }
+        .Produkt img {
+            width: 25%;
+            height: auto;
+            padding-right: 2%;
+            margin-left: 5%;
+        }
+        .Produkt b {
+            margin-left: 10%;
+            margin-top: 15px;
+            padding-left: 5%;
+            padding-right: 13%;
+            display: inline-block;
+        }
+        .Produkt p {
+            margin-left: 11%;
+            margin-top: 15px;
+            padding-right: 12%;
+            display: inline-block;
+            font-size: 12px;
+        }
+        .uno,
+        .dos,
+        .tres {
+            display: inline;
+            margin-left: 9%;
+            padding-right: 5px;
+            margin-right: 5%;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+        .SocialMedia img {
+            width: 5%;
+            height: 5%;
+            margin-left: 12%;
+            padding-bottom: 15px;
+            padding-top: 15px;
+        }
+        #Video1 {
+            width: 100%;
+            height: auto;
+            margin-left: -0.8%;
+        }
+        #Headerbild2 {
+            width: 50%;
+            margin-right: 0.8%;
+            margin-top: -0.2%;
+            float: right;
+        }
+        #Video2 {
+            width: 50%;
+            margin-top: -0.5%;
+            margin-right: 0.8%;
+            float: right;
+        }
+        #Video3 {
+            width: 50%;
+            margin-left: -0.8%;
+        }
+        #Headerbild1 {
+            width: 50%;
+            margin-left: -0.8%;
+            margin-top: -0.6%;
+            float: left;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        h1,
+        h2,
+        h3,
+        p {
+            text-align: center;
+            font-family: sans-serif;
+            margin-top: 30px;
+        }
+        #Einleitungstext {
+            font-size: 20px;
+            width: 80%;
+            margin-left: 10%;
+        }
+        button {
+            width: 170px;
+            height: 40px;
+            background-color: black;
+            color: white;
+            border-left: none;
+            border-right: none;
+            border-bottom: none;
+            border-top: none;
+        }
+        button:hover {
+            background-color: #fe0000ff;
+        }
+        #button {
+            display: block;
+            margin-left: 40%;
+            margin-bottom: 30px;
+        }
+        .Testimonials img {
+            width: 25%;
+            height: auto;
+            padding-right: 2%;
+            margin-left: 5%;
+        }
+        .Testimonials p,
+        i {
+            margin-top: 15px;
+            display: inline-block;
+            margin-left: 5%;
+            padding-right: 10px;
+            width: 250px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .Testimonials p {
+            margin-bottom: 30px;
+        }
+        .footer {
+            background-color: black;
+            color: white;
+            width: 100%;
+            padding-top: 15px;
+            margin-left: -8px;
+        }
+        #footerlogo {
+            display: block;
+            margin: auto;
+            width: 150px;
+            height: 40px;
+        }
+        .footer p {
+            font-size: 12px;
+            margin-left: 7%;
+            display: inline-block;
+            line-height: 30px;
+        }
+    }
+    /*
+    .topnav {
+        height: 110px;
+    }
+    
     .topnav img {
-        width: 130px;
-        height: 30px;
-        padding-top: 5px;
+        width: 260px;
+        height: 90px;
+        padding-top: 10px;
         margin-left: 10px;
     }
+    
     #symbol {
-        width: 30px;
-        height: 30px;
-        margin-left: 80%;
+        width: 90px;
+        height: 90px;
+        margin-left: 60%;
     }
-    .Produkt img {
-        width: 25%;
-        height: auto;
-        padding-right: 2%;
-        margin-left: 5%;
-    }
-    .Produkt b {
-        margin-left: 10%;
-        margin-top: 15px;
-        padding-left: 5%;
-        padding-right: 13%;
-        display: inline-block;
-    }
-    .Produkt p {
-        margin-left: 11%;
-        margin-top: 15px;
-        padding-right: 12%;
-        display: inline-block;
-        font-size: 12px;
-    }
-    .uno,
-    .dos,
-    .tres {
-        display: inline;
-        margin-left: 9%;
-        padding-right: 5px;
-        margin-right: 5%;
-        margin-top: 15px;
-        margin-bottom: 30px;
-    }
-    .SocialMedia img {
-        width: 5%;
-        height: 5%;
-        margin-left: 12%;
-        padding-bottom: 15px;
-        padding-top: 15px;
-    }
-    #Video1 {
-        width: 100%;
-        height: auto;
-        margin-left: -0.8%;
-    }
+    
     #Headerbild2 {
-        width: 50%;
-        margin-right: 0.8%;
-        margin-top: -0.2%;
-        float: right;
+        width: 100%;
     }
+    
     #Video2 {
-        width: 50%;
-        margin-top: -0.5%;
-        margin-right: 0.8%;
-        float: right;
+        width: 100%;
     }
+    
     #Video3 {
-        width: 50%;
-        margin-left: -0.8%;
+        width: 100%;
     }
+    
     #Headerbild1 {
-        width: 50%;
-        margin-left: -0.8%;
-        margin-top: -0.6%;
-        float: left;
+        width: 100%;
     }
-    a {
-        text-decoration: none;
-        color: white;
-    }
-    h1,
-    h2,
-    h3,
-    p {
-        text-align: center;
-        font-family: sans-serif;
-        margin-top: 30px;
-    }
-    #Einleitungstext {
-        font-size: 20px;
+    
+    .Produkt img {
         width: 80%;
-        margin-left: 10%;
-    }
-    button {
-        width: 170px;
-        height: 40px;
-        background-color: black;
-        color: white;
-        border-left: none;
-        border-right: none;
-        border-bottom: none;
-        border-top: none;
-    }
-    button:hover {
-        background-color: #fe0000ff;
-    }
-    #button {
-        display: block;
-        margin-left: 40%;
-        margin-bottom: 30px;
-    }
-    .Testimonials img {
-        width: 25%;
         height: auto;
-        padding-right: 2%;
-        margin-left: 5%;
+        padding-left: 5%;
+        padding-bottom: 350px;
     }
+    
+    .Produkt b {
+        font-size: 40px;
+        margin-left: -500px;
+        margin-top: -1400px;
+        position: absolute;
+    }
+    
+    #one {
+        margin-top: -320px;
+    }
+    
+    #two {
+        margin-top: 760px;
+    }
+    
+    .Produkt p {
+        font-size: 30px;
+        position: absolute;
+        margin-left: -515px;
+        margin-top: -1320px;
+    }
+    
+    #eins {
+        margin-top: -250px;
+    }
+    
+    #zwei {
+        margin-top: 830px;
+    }
+    
+    .Produkt button,
+    #button {
+        width: 400px;
+        height: 80px;
+        font-size: 30px;
+        margin-left: 30%;
+    }
+    
+    .uno {
+        position: absolute;
+        margin-left: -720px;
+        margin-top: -1250px;
+    }
+    
+    .dos {
+        position: absolute;
+        margin-left: -720px;
+        margin-top: -180px;
+    }
+    
+    .tres {
+        position: absolute;
+        margin-left: -720px;
+        margin-top: 900px;
+    }
+    
+    .Testimonials img {
+        width: 60%;
+        height: auto;
+        padding-bottom: 450px;
+        margin-left: 20%;
+    }
+    
     .Testimonials p,
     i {
-        margin-top: 15px;
-        display: inline-block;
-        margin-left: 5%;
-        padding-right: 10px;
-        width: 250px;
+        width: 600px;
         text-align: center;
         margin-bottom: 15px;
+        font-size: 35px;
     }
+    
+    #Emilia {
+        position: absolute;
+        margin-left: -600px;
+        margin-top: -1470px;
+    }
+    
+    #Jonas {
+        position: absolute;
+        margin-left: -600px;
+        margin-top: -430px;
+    }
+    
+    #Alma {
+        position: absolute;
+        margin-left: -600px;
+        margin-top: 620px;
+    }
+    
     .Testimonials p {
         margin-bottom: 30px;
     }
-    .footer {
-        background-color: black;
-        color: white;
-        width: 100%;
-        padding-top: 15px;
-        margin-left: -8px;
+    
+    #Schäfer {
+        position: absolute;
+        margin-left: -600px;
+        margin-top: -1180px;
     }
+    
+    #Braun {
+        position: absolute;
+        margin-left: -600px;
+        margin-top: -100px;
+    }
+    
+    #Larsen {
+        position: absolute;
+        margin-left: -600px;
+        margin-top: 920px;
+    }
+    
+    .SocialMedia img {
+        width: 9%;
+        height: 9%;
+        margin-left: 9%;
+    }
+    
     #footerlogo {
         display: block;
         margin: auto;
         width: 150px;
         height: 40px;
     }
-    .footer p {
-        font-size: 12px;
-        margin-left: 7%;
-        display: inline-block;
-        line-height: 30px;
+    
+    #footerlogo {
+        width: 280px;
+        height: 60px;
     }
-}
-
-.topnav {
-    height: 110px;
-}
-
-.topnav img {
-    width: 270px;
-    height: 90px;
-    padding-top: 10px;
-    margin-left: 10px;
-}
-
-#symbol {
-    width: 90px;
-    height: 90px;
-    margin-left: 60%;
-}
-
-#Headerbild2 {
-    width: 100%;
-}
-
-#Video2 {
-    width: 100%;
-}
-
-#Video3 {
-    width: 100%;
-}
-
-#Headerbild1 {
-    width: 100%;
-}
-
-.Produkt img {
-    width: 80%;
-    height: auto;
-    padding-left: 5%;
-    padding-bottom: 350px;
-}
-
-.Produkt b {
-    font-size: 40px;
-    margin-left: -500px;
-    margin-top: -1400px;
-    position: absolute;
-}
-
-#one {
-    margin-top: -320px;
-}
-
-#two {
-    margin-top: 760px;
-}
-
-.Produkt p {
-    font-size: 30px;
-    position: absolute;
-    margin-left: -515px;
-    margin-top: -1320px;
-}
-
-#eins {
-    margin-top: -250px;
-}
-
-#zwei {
-    margin-top: 830px;
-}
-
-.Produkt button,
-#button {
-    width: 400px;
-    height: 80px;
-    font-size: 30px;
-    margin-left: 30%;
-}
-
-.uno {
-    position: absolute;
-    margin-left: -720px;
-    margin-top: -1250px;
-}
-
-.dos {
-    position: absolute;
-    margin-left: -720px;
-    margin-top: -180px;
-}
-
-.tres {
-    position: absolute;
-    margin-left: -720px;
-    margin-top: 900px;
-}
-
-.Testimonials img {
-    width: 60%;
-    height: auto;
-    padding-bottom: 450px;
-    margin-left: 20%;
-}
-
-.Testimonials p,
-i {
-    width: 600px;
-    text-align: center;
-    margin-bottom: 15px;
-    font-size: 40px;
-}
-
-#Emilia {
-    position: absolute;
-    margin-left: -600px;
-    margin-top: -1470px;
-}
-
-#Jonas {
-    position: absolute;
-    margin-left: -600px;
-    margin-top: -430px;
-}
-
-#Alma {
-    position: absolute;
-    margin-left: -600px;
-    margin-top: 620px;
-}
-
-.Testimonials p {
-    margin-bottom: 30px;
-}
-
-#Schäfer {
-    position: absolute;
-    margin-left: -600px;
-    margin-top: -1180px;
-}
-
-#Braun {
-    position: absolute;
-    margin-left: -600px;
-    margin-top: -100px;
-}
-
-#Larsen {
-    position: absolute;
-    margin-left: -600px;
-    margin-top: 920px;
-}
-
-.SocialMedia img {
-    width: 9%;
-    height: 9%;
-    margin-left: 9%;
-}
-
-#footerlogo {
-    display: block;
-    margin: auto;
-    width: 150px;
-    height: 40px;
-}
-
-#footerlogo {
-    width: 280px;
-    height: 60px;
-}
-
-.footer p {
-    font-size: 20px;
-    text-align: center;
-}
-
-#Einleitungstext {
-    font-size: 34px;
-    padding-bottom: 50px;
-}
-
-h1 {
-    font-size: 80px;
-}
-
-h2 {
-    font-size: 60px;
-    width: 90%;
-    margin-left: 5%;
-}
-
-h3 {
-    font-size: 50px;
-    width: 90%;
-    margin-left: 5%;
-}
+    
+    .footer p {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    #Einleitungstext {
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+    
+    h1 {
+        font-size: 80px;
+    }
+    
+    h2 {
+        font-size: 60px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    h3 {
+        font-size: 50px;
+        width: 90%;
+        margin-left: 5%;
+    }*/
