@@ -13,83 +13,130 @@ body {
     height: auto;
 }
 
+.footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+#Video1 {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+}
+
+button:hover {
+    background-color: #fe0000ff;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 @media only screen and (max-width: 601px) {
+    #Video1 {
+        margin-left: -1.4%;
+    }
     .topnav {
-        height: 110px;
+        height: 100px;
     }
     .topnav img {
-        width: 260px;
-        height: 90px;
-        padding-top: 10px;
-        margin-left: 10px;
+        width: 230px;
+        height: 60px;
+        margin-top: -10px;
+        margin-left: 15px;
     }
     #symbol {
-        width: 90px;
-        height: 90px;
-        margin-left: 60%;
+        width: 70px;
+        height: 70px;
+        margin-left: 43%;
+        margin-top: 2%;
     }
     #Headerbild2 {
         width: 100%;
+        margin-left: -1.4%;
     }
     #Video2 {
         width: 100%;
+        margin-left: -1.4%;
     }
     #Video3 {
         width: 100%;
+        margin-left: -1.4%;
     }
     #Headerbild1 {
         width: 100%;
+        margin-left: -1.4%;
     }
     .Produkt img {
         width: 80%;
-        padding-left: 5%;
+        padding-left: 9%;
         padding-bottom: 350px;
     }
     .Produkt b {
-        font-size: 40px;
-        margin-left: -500px;
-        margin-top: -1400px;
+        font-size: 35px;
+        margin-left: -48%;
         position: absolute;
+    }
+    .Produkt b {
+        margin-top: -1100px;
     }
     #one {
         margin-top: -320px;
     }
     #two {
-        margin-top: 760px;
+        margin-top: 460px;
     }
-    .Produkt p {
+    .Produkt p,
+    #ein,
+    #zwei {
         font-size: 30px;
         position: absolute;
-        margin-left: -515px;
-        margin-top: -1320px;
+        margin-left: 30%;
+    }
+    .Produkt p {
+        margin-top: -1820px;
     }
     #eins {
-        margin-top: -250px;
+        margin-top: -1040px;
     }
     #zwei {
-        margin-top: 830px;
+        margin-top: -255px;
     }
     .Produkt button,
     #button {
-        width: 400px;
-        height: 80px;
-        font-size: 30px;
-        margin-left: 30%;
+        width: 350px;
+        height: 70px;
+        font-size: 25px;
     }
-    .uno {
-        position: absolute;
-        margin-left: -720px;
-        margin-top: -1250px;
+    #button {
+        margin-left: 19%;
     }
-    .dos {
-        position: absolute;
-        margin-left: -720px;
-        margin-top: -180px;
-    }
+    .uno,
+    .dos,
     .tres {
         position: absolute;
-        margin-left: -720px;
-        margin-top: 900px;
+        margin-left: 18.5%;
+    }
+    .uno {
+        margin-top: -1750px;
+    }
+    .dos {
+        margin-top: -965px;
+    }
+    .tres {
+        margin-top: -180px;
     }
     .Testimonials img {
         width: 60%;
@@ -99,48 +146,54 @@ body {
     }
     .Testimonials p,
     i {
-        width: 600px;
+        width: 500px;
+        font-size: 30px;
         text-align: center;
-        margin-bottom: 15px;
-        font-size: 35px;
+    }
+    #Emilia,
+    #Jonas,
+    #Alma {
+        position: absolute;
+        margin-left: -75%;
     }
     #Emilia {
-        position: absolute;
-        margin-left: -600px;
-        margin-top: -1470px;
+        margin-top: -1230px;
     }
     #Jonas {
-        position: absolute;
-        margin-left: -600px;
         margin-top: -430px;
     }
     #Alma {
-        position: absolute;
-        margin-left: -600px;
-        margin-top: 620px;
+        margin-top: 370px;
     }
     .Testimonials p {
         margin-bottom: 30px;
     }
-    #Schäfer {
-        position: absolute;
-        margin-left: -600px;
-        margin-top: -1180px;
-    }
-    #Braun {
-        position: absolute;
-        margin-left: -600px;
-        margin-top: -100px;
-    }
+    #Schäfer,
+    #Braun,
     #Larsen {
         position: absolute;
-        margin-left: -600px;
-        margin-top: 920px;
+        margin-left: 5%;
+    }
+    #Schäfer {
+        margin-top: -1780px;
+    }
+    #Braun {
+        margin-top: -950px;
+    }
+    #Larsen {
+        margin-top: -180px;
     }
     .SocialMedia img {
         width: 9%;
         height: 9%;
         margin-left: 9%;
+        padding-bottom: 20px;
+    }
+    .footer {
+        padding-top: 30px;
+        height: 200px;
+        margin-left: -7px;
+        padding-bottom: 20px;
     }
     #footerlogo {
         display: block;
@@ -154,24 +207,26 @@ body {
     }
     .footer p {
         font-size: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
         text-align: center;
     }
     #Einleitungstext {
-        font-size: 30px;
-        padding-bottom: 50px;
+        font-size: 25px;
+        padding-bottom: 30px;
+        text-align: center;
     }
     h1 {
-        font-size: 80px;
+        font-size: 60px;
+        text-align: center;
     }
     h2 {
-        font-size: 60px;
-        width: 90%;
-        margin-left: 5%;
+        font-size: 40px;
+        text-align: center;
     }
     h3 {
-        font-size: 50px;
-        width: 90%;
-        margin-left: 5%;
+        font-size: 30px;
+        text-align: center;
     }
 }
 
@@ -227,8 +282,6 @@ body {
         padding-top: 15px;
     }
     #Video1 {
-        width: 100%;
-        height: auto;
         margin-left: -0.8%;
     }
     #Headerbild2 {
@@ -253,10 +306,6 @@ body {
         margin-top: -0.6%;
         float: left;
     }
-    a {
-        text-decoration: none;
-        color: white;
-    }
     h1,
     h2,
     h3,
@@ -269,19 +318,6 @@ body {
         font-size: 20px;
         width: 80%;
         margin-left: 10%;
-    }
-    button {
-        width: 170px;
-        height: 40px;
-        background-color: black;
-        color: white;
-        border-left: none;
-        border-right: none;
-        border-bottom: none;
-        border-top: none;
-    }
-    button:hover {
-        background-color: #fe0000ff;
     }
     #button {
         display: block;
@@ -308,9 +344,6 @@ body {
         margin-bottom: 30px;
     }
     .footer {
-        background-color: black;
-        color: white;
-        width: 100%;
         padding-top: 15px;
         margin-left: -8px;
     }
