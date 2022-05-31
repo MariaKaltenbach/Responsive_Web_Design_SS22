@@ -22,6 +22,7 @@ body {
 #Video1 {
     width: 100%;
     height: auto;
+    margin-left: -8px;
 }
 
 button {
@@ -45,16 +46,13 @@ a {
 }
 
 @media only screen and (max-width: 601px) {
-    #Video1 {
-        margin-left: -1.4%;
-    }
     .topnav {
         height: 100px;
     }
     .topnav img {
         width: 230px;
         height: 60px;
-        margin-top: -10px;
+        margin-top: 10px;
         margin-left: 15px;
     }
     #symbol {
@@ -184,9 +182,9 @@ a {
         margin-top: -180px;
     }
     .SocialMedia img {
-        width: 9%;
-        height: 9%;
-        margin-left: 9%;
+        width: 12%;
+        height: 12%;
+        margin-left: 6%;
         padding-bottom: 20px;
     }
     .footer {
@@ -213,6 +211,8 @@ a {
     }
     #Einleitungstext {
         font-size: 25px;
+        width: 90%;
+        padding-left: 3%;
         padding-bottom: 30px;
         text-align: center;
     }
@@ -227,6 +227,8 @@ a {
     h3 {
         font-size: 30px;
         text-align: center;
+        width: 90%;
+        margin-left: 3%;
     }
 }
 
@@ -243,7 +245,7 @@ a {
     #symbol {
         width: 30px;
         height: 30px;
-        margin-left: 81%;
+        margin-left: 80%;
     }
     .Produkt img {
         width: 25%;
@@ -251,10 +253,10 @@ a {
         margin-left: 5%;
     }
     .Produkt b {
-        margin-left: 10%;
+        margin-left: 45px;
+        margin-right: 70px;
         margin-top: 15px;
-        padding-left: 5%;
-        padding-right: 13%;
+        padding-left: 60px;
         display: inline-block;
     }
     .Produkt p {
@@ -280,9 +282,6 @@ a {
         margin-left: 12%;
         padding-bottom: 15px;
         padding-top: 15px;
-    }
-    #Video1 {
-        margin-left: -0.8%;
     }
     #Headerbild2 {
         width: 50%;
