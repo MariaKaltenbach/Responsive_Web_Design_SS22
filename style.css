@@ -7,6 +7,7 @@ body {
     width: 100%;
     margin-top: -8px;
     margin-left: -8px;
+    position: fixed;
 }
 
 .Produkt img {
@@ -45,7 +46,7 @@ a {
     color: white;
 }
 
-@media only screen and (max-width: 601px) {
+@media only screen and (max-width: 600px) {
     .topnav {
         height: 100px;
     }
@@ -58,24 +59,28 @@ a {
     #symbol {
         width: 70px;
         height: 70px;
-        margin-left: 43%;
+        margin-left: 40%;
         margin-top: 2%;
     }
     #Headerbild2 {
         width: 100%;
         margin-left: -1.4%;
+        margin-top: -5px;
     }
     #Video2 {
         width: 100%;
         margin-left: -1.4%;
+        margin-top: -5px;
     }
     #Video3 {
         width: 100%;
         margin-left: -1.4%;
+        margin-top: -5px;
     }
     #Headerbild1 {
         width: 100%;
         margin-left: -1.4%;
+        margin-top: -5px;
     }
     .Produkt img {
         width: 80%;
@@ -120,6 +125,7 @@ a {
     }
     #button {
         margin-left: 19%;
+        margin-bottom: 110px;
     }
     .uno,
     .dos,
@@ -139,7 +145,7 @@ a {
     .Testimonials img {
         width: 60%;
         height: auto;
-        padding-bottom: 450px;
+        padding-bottom: 390px;
         margin-left: 20%;
     }
     .Testimonials p,
@@ -155,13 +161,13 @@ a {
         margin-left: -75%;
     }
     #Emilia {
-        margin-top: -1230px;
+        margin-top: -1100px;
     }
     #Jonas {
-        margin-top: -430px;
+        margin-top: -360px;
     }
     #Alma {
-        margin-top: 370px;
+        margin-top: 380px;
     }
     .Testimonials p {
         margin-bottom: 30px;
@@ -173,13 +179,13 @@ a {
         margin-left: 5%;
     }
     #Schäfer {
-        margin-top: -1780px;
+        margin-top: -1580px;
     }
     #Braun {
-        margin-top: -950px;
+        margin-top: -820px;
     }
     #Larsen {
-        margin-top: -180px;
+        margin-top: -100px;
     }
     .SocialMedia img {
         width: 12%;
@@ -223,6 +229,7 @@ a {
     h2 {
         font-size: 40px;
         text-align: center;
+        margin-top: -20px;
     }
     h3 {
         font-size: 30px;
@@ -245,7 +252,7 @@ a {
     #symbol {
         width: 30px;
         height: 30px;
-        margin-left: 80%;
+        margin-left: 70%;
     }
     .Produkt img {
         width: 25%;
@@ -291,7 +298,7 @@ a {
     }
     #Video2 {
         width: 50%;
-        margin-top: -0.5%;
+        margin-top: -0.6%;
         margin-right: 0.8%;
         float: right;
     }
