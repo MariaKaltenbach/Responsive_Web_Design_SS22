@@ -45,7 +45,7 @@ a {
     color: white;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     .topnav {
         height: 100px;
     }
@@ -92,13 +92,13 @@ a {
         position: absolute;
     }
     #zero {
-        margin-top: -1100px;
+        margin-top: -1080px;
     }
     #one {
         margin-top: -320px;
     }
     #two {
-        margin-top: 460px;
+        margin-top: 440px;
     }
     .Produkt p,
     #ein,
@@ -108,13 +108,13 @@ a {
         margin-left: 30%;
     }
     .Produkt p {
-        margin-top: -1780px;
+        margin-top: -1770px;
     }
     #eins {
         margin-top: -1010px;
     }
     #zwei {
-        margin-top: -230px;
+        margin-top: -250px;
     }
     .Produkt button,
     #button {
@@ -130,16 +130,16 @@ a {
     #dos,
     #tres {
         position: absolute;
-        margin-left: 18.5%;
+        margin-left: 17%;
     }
     #uno {
-        margin-top: -1710px;
+        margin-top: -1700px;
     }
     #dos {
         margin-top: -940px;
     }
     #tres {
-        margin-top: -160px;
+        margin-top: -180px;
     }
     .Testimonials img {
         width: 60%;
@@ -238,7 +238,7 @@ a {
     }
 }
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 901px) {
     .topnav {
         height: 20x;
     }
