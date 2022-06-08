@@ -1,376 +1,566 @@
-body {
-    width: 100%;
-}
-
-.topnav {
-    background-color: black;
-    width: 100%;
-    margin-top: -8px;
-    margin-left: -8px;
-}
-
-.Produkt img {
-    height: auto;
-}
-
-.footer {
-    background-color: black;
-    color: white;
-    width: 100%;
-}
-
-#Video1 {
-    width: 100%;
-    height: auto;
-    margin-left: -8px;
-}
-
-button {
-    width: 170px;
-    height: 40px;
-    background-color: black;
-    color: white;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
-    border-top: none;
-}
-
-button:hover {
-    background-color: #fe0000ff;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-@media only screen and (max-width: 900px) {
+    body {
+        width: 100%;
+    }
+    
     .topnav {
-        height: 100px;
-    }
-    .topnav img {
-        width: 230px;
-        height: 60px;
-        margin-top: 10px;
-        margin-left: 15px;
-    }
-    #symbol {
-        width: 70px;
-        height: 70px;
-        margin-left: 40%;
-        margin-top: 2%;
-    }
-    #Headerbild2 {
+        background-color: black;
         width: 100%;
-        margin-left: -1.4%;
-        margin-top: -5px;
-    }
-    #Video2 {
-        width: 100%;
-        margin-left: -1.4%;
-        margin-top: -5px;
-    }
-    #Video3 {
-        width: 100%;
-        margin-left: -1.4%;
-        margin-top: -5px;
-    }
-    #Headerbild1 {
-        width: 100%;
-        margin-left: -1.4%;
-        margin-top: -5px;
-    }
-    .Produkt img {
-        width: 80%;
-        padding-left: 9%;
-        padding-bottom: 350px;
-    }
-    .Produkt b {
-        font-size: 35px;
-        margin-left: -48%;
-        position: absolute;
-    }
-    #zero {
-        margin-top: -1080px;
-    }
-    #one {
-        margin-top: -320px;
-    }
-    #two {
-        margin-top: 440px;
-    }
-    .Produkt p,
-    #ein,
-    #zwei {
-        font-size: 30px;
-        position: absolute;
-        margin-left: 30%;
-    }
-    .Produkt p {
-        margin-top: -1770px;
-    }
-    #eins {
-        margin-top: -1010px;
-    }
-    #zwei {
-        margin-top: -250px;
-    }
-    .Produkt button,
-    #button {
-        width: 350px;
-        height: 70px;
-        font-size: 25px;
-    }
-    #button {
-        margin-left: 19%;
-        margin-bottom: 110px;
-    }
-    #uno,
-    #dos,
-    #tres {
-        position: absolute;
-        margin-left: 17%;
-    }
-    #uno {
-        margin-top: -1700px;
-    }
-    #dos {
-        margin-top: -940px;
-    }
-    #tres {
-        margin-top: -180px;
-    }
-    .Testimonials img {
-        width: 60%;
-        height: auto;
-        padding-bottom: 390px;
-        margin-left: 20%;
-    }
-    .Testimonials p,
-    i {
-        width: 500px;
-        font-size: 30px;
-        text-align: center;
-    }
-    #Emilia,
-    #Jonas,
-    #Alma {
-        position: absolute;
-        margin-left: -75%;
-    }
-    #Emilia {
-        margin-top: -1080px;
-    }
-    #Jonas {
-        margin-top: -360px;
-    }
-    #Alma {
-        margin-top: 380px;
-    }
-    .Testimonials p {
-        margin-bottom: 30px;
-    }
-    #Schäfer,
-    #Braun,
-    #Larsen {
-        position: absolute;
-        margin-left: 5%;
-    }
-    #Schäfer {
-        margin-top: -1569px;
-    }
-    #Braun {
-        margin-top: -820px;
-    }
-    #Larsen {
-        margin-top: -100px;
-    }
-    .SocialMedia img {
-        width: 12%;
-        height: 12%;
-        margin-left: 6%;
-        padding-bottom: 20px;
-    }
-    .footer {
-        padding-top: 30px;
-        height: 200px;
-        margin-left: -7px;
-        padding-bottom: 20px;
-    }
-    #footerlogo {
-        display: block;
-        margin: auto;
-        width: 150px;
-        height: 40px;
-    }
-    #footerlogo {
-        width: 280px;
-        height: 60px;
-    }
-    .footer p {
-        font-size: 20px;
-        padding-left: 5%;
-        padding-right: 5%;
-        text-align: center;
-    }
-    #Einleitungstext {
-        font-size: 25px;
-        width: 90%;
-        padding-left: 3%;
-        padding-bottom: 30px;
-        text-align: center;
-    }
-    h1 {
-        font-size: 60px;
-        text-align: center;
-    }
-    h2 {
-        font-size: 40px;
-        text-align: center;
-        margin-top: -20px;
-    }
-    h3 {
-        font-size: 30px;
-        text-align: center;
-        width: 90%;
-        margin-left: 3%;
-    }
-}
-
-@media only screen and (min-width: 901px) {
-    .topnav {
-        height: 20x;
-    }
-    .topnav img {
-        width: 130px;
-        height: 30px;
-        padding-top: 5px;
-        margin-left: 10px;
-    }
-    #symbol {
-        width: 30px;
-        height: 30px;
-        margin-left: 70%;
-    }
-    .Produkt img {
-        width: 25%;
-        padding-right: 2%;
-        margin-left: 5%;
-    }
-    .Produkt b {
-        margin-left: 14%;
-        margin-right: 12%;
-        margin-top: 15px;
-        display: inline-block;
-    }
-    .Produkt p {
-        margin-left: 9%;
-        margin-right: 7%;
-        margin-top: 15px;
-        display: inline-block;
-        font-size: 12px;
-    }
-    #null,
-    #eins,
-    #zwei,
-    #zero,
-    #one,
-    #two,
-    #uno,
-    #dos,
-    #tres {
-        display: inline-block;
-        margin-left: 6%;
-        margin-right: 8%;
-        width: 19%;
-        text-align: center;
-    }
-    #uno,
-    #dos,
-    #tres {
-        margin-bottom: 30px;
-    }
-    .SocialMedia img {
-        width: 5%;
-        height: 5%;
-        margin-left: 12%;
-        padding-bottom: 15px;
-        padding-top: 15px;
-    }
-    #Headerbild2 {
-        width: 50%;
-        margin-right: 0.8%;
-        margin-top: -0.2%;
-        float: right;
-    }
-    #Video2 {
-        width: 50%;
-        margin-top: -0.6%;
-        margin-right: 0.8%;
-        float: right;
-    }
-    #Video3 {
-        width: 50%;
-        margin-left: -0.8%;
-    }
-    #Headerbild1 {
-        width: 50%;
-        margin-left: -0.8%;
-        margin-top: -0.6%;
-        float: left;
-    }
-    h1,
-    h2,
-    h3,
-    p {
-        text-align: center;
-        font-family: sans-serif;
-        margin-top: 30px;
-    }
-    #Einleitungstext {
-        font-size: 20px;
-        width: 80%;
-        margin-left: 10%;
-    }
-    #button {
-        display: block;
-        margin-left: 42%;
-        margin-bottom: 30px;
-    }
-    .Testimonials img {
-        width: 25%;
-        height: auto;
-        padding-right: 2%;
-        margin-left: 5%;
-    }
-    .Testimonials p,
-    i {
-        margin-top: 15px;
-        display: inline-block;
-        margin-left: 5%;
-        padding-right: 10px;
-        width: 25%;
-        text-align: center;
-        margin-bottom: 15px;
-    }
-    .Testimonials p {
-        margin-bottom: 30px;
-    }
-    .footer {
-        padding-top: 15px;
+        margin-top: -8px;
         margin-left: -8px;
     }
-    #footerlogo {
-        display: block;
-        margin: auto;
-        width: 150px;
+    
+    .Produkt img {
+        height: auto;
+    }
+    
+    .footer {
+        background-color: black;
+        color: white;
+        width: 100%;
+    }
+    
+    #Video1 {
+        width: 100%;
+        height: auto;
+        margin-left: -8px;
+    }
+    
+    button {
+        width: 170px;
         height: 40px;
+        background-color: black;
+        color: white;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        border-top: none;
     }
-    .footer p {
-        font-size: 12px;
-        margin-left: 7%;
-        display: inline-block;
-        line-height: 30px;
+    
+    button:hover {
+        background-color: #fe0000ff;
     }
-}
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .topnav {
+            height: 100px;
+        }
+        .topnav img {
+            width: 230px;
+            height: 60px;
+            margin-top: 10px;
+            margin-left: 15px;
+        }
+        #symbol {
+            width: 70px;
+            height: 70px;
+            margin-left: 40%;
+            margin-top: 2%;
+        }
+        #Headerbild2 {
+            width: 100%;
+            margin-left: -1.4%;
+            margin-top: -5px;
+        }
+        #Video2 {
+            width: 100%;
+            margin-left: -1.4%;
+            margin-top: -5px;
+        }
+        #Video3 {
+            width: 100%;
+            margin-left: -1.4%;
+            margin-top: -5px;
+        }
+        #Headerbild1 {
+            width: 100%;
+            margin-left: -1.4%;
+            margin-top: -5px;
+        }
+        .Produkt img {
+            width: 80%;
+            padding-left: 9%;
+            padding-bottom: 350px;
+        }
+        .Produkt b {
+            font-size: 35px;
+            margin-left: -48%;
+            position: absolute;
+        }
+        #zero {
+            margin-top: -1080px;
+        }
+        #one {
+            margin-top: -320px;
+        }
+        #two {
+            margin-top: 440px;
+        }
+        .Produkt p,
+        #ein,
+        #zwei {
+            font-size: 30px;
+            position: absolute;
+            margin-left: 30%;
+        }
+        .Produkt p {
+            margin-top: -1770px;
+        }
+        #eins {
+            margin-top: -1010px;
+        }
+        #zwei {
+            margin-top: -250px;
+        }
+        .Produkt button,
+        .button button {
+            width: 350px;
+            height: 70px;
+            font-size: 25px;
+        }
+        .button {
+            margin-bottom: 80px;
+            text-align: center;
+        }
+        #uno,
+        #dos,
+        #tres {
+            position: absolute;
+            margin-left: 17%;
+        }
+        #uno {
+            margin-top: -1700px;
+        }
+        #dos {
+            margin-top: -940px;
+        }
+        #tres {
+            margin-top: -180px;
+        }
+        .Testimonials img {
+            width: 60%;
+            height: auto;
+            padding-bottom: 390px;
+            margin-left: 20%;
+        }
+        .Testimonials p,
+        i {
+            width: 500px;
+            font-size: 30px;
+            text-align: center;
+        }
+        #Emilia,
+        #Jonas,
+        #Alma {
+            position: absolute;
+            margin-left: -75%;
+        }
+        #Emilia {
+            margin-top: -1080px;
+        }
+        #Jonas {
+            margin-top: -360px;
+        }
+        #Alma {
+            margin-top: 380px;
+        }
+        .Testimonials p {
+            margin-bottom: 30px;
+        }
+        #Schäfer,
+        #Braun,
+        #Larsen {
+            position: absolute;
+            margin-left: 5%;
+        }
+        #Schäfer {
+            margin-top: -1569px;
+        }
+        #Braun {
+            margin-top: -820px;
+        }
+        #Larsen {
+            margin-top: -100px;
+        }
+        .SocialMedia img {
+            width: 12%;
+            height: 12%;
+            margin-left: 6%;
+            padding-bottom: 20px;
+        }
+        .footer {
+            padding-top: 30px;
+            height: 200px;
+            margin-left: -7px;
+            padding-bottom: 20px;
+        }
+        #footerlogo {
+            display: block;
+            margin: auto;
+            width: 150px;
+            height: 40px;
+        }
+        #footerlogo {
+            width: 280px;
+            height: 60px;
+        }
+        .footer p {
+            font-size: 20px;
+            padding-left: 5%;
+            padding-right: 5%;
+            text-align: center;
+        }
+        #Einleitungstext {
+            font-size: 25px;
+            width: 90%;
+            padding-left: 3%;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 60px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 40px;
+            text-align: center;
+            margin-top: -20px;
+        }
+        h3 {
+            font-size: 30px;
+            text-align: center;
+            width: 90%;
+            margin-left: 3%;
+        }
+    }
+    
+    @media only screen and (min-width: 601px) and (max-width: 1000px) {
+        .topnav {
+            height: 100px;
+        }
+        .topnav img {
+            width: 230px;
+            height: 60px;
+            margin-top: 10px;
+            margin-left: 15px;
+        }
+        #symbol {
+            width: 70px;
+            height: 70px;
+            margin-left: 50%;
+            margin-top: 2%;
+        }
+        #Headerbild2 {
+            width: 100%;
+            margin-left: -1.4%;
+            margin-top: -5px;
+        }
+        #Video2 {
+            width: 100%;
+            margin-left: -1.4%;
+            margin-top: -5px;
+        }
+        #Video3 {
+            width: 100%;
+            margin-left: -1.4%;
+            margin-top: -5px;
+        }
+        #Headerbild1 {
+            width: 100%;
+            margin-left: -1.4%;
+            margin-top: -5px;
+        }
+        .Produkt img {
+            width: 80%;
+            padding-left: 9%;
+            padding-bottom: 350px;
+        }
+        .Produkt b {
+            font-size: 35px;
+            margin-left: -48%;
+            position: absolute;
+        }
+        #zero {
+            margin-top: -1140px;
+        }
+        #one {
+            margin-top: -350px;
+        }
+        #two {
+            margin-top: 440px;
+        }
+        .Produkt p,
+        #ein,
+        #zwei {
+            font-size: 30px;
+            position: absolute;
+            margin-left: 30%;
+        }
+        .Produkt p {
+            margin-top: -1770px;
+        }
+        #eins {
+            margin-top: -1010px;
+        }
+        #zwei {
+            margin-top: -250px;
+        }
+        .Produkt button,
+        .button button {
+            width: 350px;
+            height: 70px;
+            font-size: 25px;
+        }
+        .button {
+            margin-bottom: 80px;
+        }
+        .uno,
+        .dos,
+        .tres {
+            text-align: center;
+        }
+        .uno {
+            margin-top: -1700px;
+        }
+        #dos {
+            margin-top: -940px;
+        }
+        #tres {
+            margin-top: -180px;
+        }
+        .Testimonials img {
+            width: 60%;
+            height: auto;
+            padding-bottom: 390px;
+            margin-left: 20%;
+        }
+        .Testimonials p,
+        i {
+            width: 500px;
+            font-size: 30px;
+            text-align: center;
+        }
+        #Emilia,
+        #Jonas,
+        #Alma {
+            position: absolute;
+            margin-left: -75%;
+        }
+        #Emilia {
+            margin-top: -1080px;
+        }
+        #Jonas {
+            margin-top: -360px;
+        }
+        #Alma {
+            margin-top: 380px;
+        }
+        .Testimonials p {
+            margin-bottom: 30px;
+        }
+        #Schäfer,
+        #Braun,
+        #Larsen {
+            position: absolute;
+            margin-left: 5%;
+        }
+        #Schäfer {
+            margin-top: -1569px;
+        }
+        #Braun {
+            margin-top: -820px;
+        }
+        #Larsen {
+            margin-top: -100px;
+        }
+        .SocialMedia img {
+            width: 12%;
+            height: 12%;
+            margin-left: 6%;
+            padding-bottom: 20px;
+        }
+        .footer {
+            padding-top: 30px;
+            height: 200px;
+            margin-left: -7px;
+            padding-bottom: 20px;
+        }
+        #footerlogo {
+            display: block;
+            margin: auto;
+            width: 150px;
+            height: 40px;
+        }
+        #footerlogo {
+            width: 280px;
+            height: 60px;
+        }
+        .footer p {
+            font-size: 20px;
+            padding-left: 5%;
+            padding-right: 5%;
+            text-align: center;
+        }
+        #Einleitungstext {
+            font-size: 25px;
+            width: 90%;
+            padding-left: 3%;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 60px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 40px;
+            text-align: center;
+            margin-top: -20px;
+        }
+        h3 {
+            font-size: 30px;
+            text-align: center;
+            width: 90%;
+            margin-left: 3%;
+        }
+    }
+    
+    @media only screen and (min-width: 1001px) {
+        .topnav {
+            height: 20x;
+        }
+        .topnav img {
+            width: 130px;
+            height: 30px;
+            padding-top: 5px;
+            margin-left: 10px;
+        }
+        #symbol {
+            width: 30px;
+            height: 30px;
+            margin-left: 70%;
+        }
+        .Produkt img {
+            width: 25%;
+            padding-right: 2%;
+            margin-left: 5%;
+        }
+        .Produkt b {
+            margin-left: 14%;
+            margin-right: 12%;
+            margin-top: 15px;
+            display: inline-block;
+        }
+        .Produkt p {
+            margin-left: 9%;
+            margin-right: 7%;
+            margin-top: 15px;
+            display: inline-block;
+            font-size: 12px;
+        }
+        #null,
+        #eins,
+        #zwei,
+        #zero,
+        #one,
+        #two,
+        #uno,
+        #dos,
+        #tres {
+            display: inline-block;
+            margin-left: 6%;
+            margin-right: 8%;
+            width: 19%;
+            text-align: center;
+        }
+        #uno,
+        #dos,
+        #tres {
+            margin-bottom: 30px;
+        }
+        .SocialMedia img {
+            width: 5%;
+            height: 5%;
+            margin-left: 12%;
+            padding-bottom: 15px;
+            padding-top: 15px;
+        }
+        #Headerbild2 {
+            width: 50%;
+            margin-right: 0.8%;
+            margin-top: -0.2%;
+            float: right;
+        }
+        #Video2 {
+            width: 50%;
+            margin-top: -0.6%;
+            margin-right: 0.8%;
+            float: right;
+        }
+        #Video3 {
+            width: 50%;
+            margin-left: -0.8%;
+        }
+        #Headerbild1 {
+            width: 50%;
+            margin-left: -0.8%;
+            margin-top: -0.6%;
+            float: left;
+        }
+        h1,
+        h2,
+        h3,
+        p {
+            text-align: center;
+            font-family: sans-serif;
+            margin-top: 30px;
+        }
+        #Einleitungstext {
+            font-size: 20px;
+            width: 80%;
+            margin-left: 10%;
+        }
+        .button button {
+            margin-left: 42%;
+            margin-bottom: 30px;
+        }
+        .Testimonials img {
+            width: 25%;
+            height: auto;
+            padding-right: 2%;
+            margin-left: 5%;
+        }
+        .Testimonials p,
+        i {
+            margin-top: 15px;
+            display: inline-block;
+            margin-left: 5%;
+            padding-right: 10px;
+            width: 25%;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .Testimonials p {
+            margin-bottom: 30px;
+        }
+        .footer {
+            padding-top: 15px;
+            margin-left: -8px;
+        }
+        #footerlogo {
+            display: block;
+            margin: auto;
+            width: 150px;
+            height: 40px;
+        }
+        .footer p {
+            font-size: 12px;
+            margin-left: 7%;
+            display: inline-block;
+            line-height: 30px;
+        }
+    }
