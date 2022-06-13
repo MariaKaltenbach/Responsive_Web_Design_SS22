@@ -7,6 +7,8 @@ body {
     width: 100%;
     margin-top: -8px;
     margin-left: -8px;
+    position: fixed;
+    z-index: 9999;
 }
 
 .Produkt img {
@@ -45,7 +47,7 @@ a {
     color: white;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     .topnav {
         height: 100px;
     }
@@ -205,9 +207,12 @@ a {
         width: 90%;
         margin-left: 3%;
     }
+    #Video1 {
+        margin-top: 92px;
+    }
 }
 
-@media only screen and (min-width: 901px) {
+@media only screen and (min-width: 1001px) {
     .topnav {
         height: 20x;
     }
