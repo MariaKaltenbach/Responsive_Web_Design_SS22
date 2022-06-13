@@ -396,7 +396,7 @@ a {
     .Produkt2 .content1:hover .text1,
     .Produkt3 .content2:hover .text2 {
         opacity: 1;
-        transform: translateY(250px);
-        -webkit-transform: translateY(250px);
+        transform: translateY(160px);
+        -webkit-transform: translateY(160px);
     }
 }
