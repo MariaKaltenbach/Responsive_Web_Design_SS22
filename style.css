@@ -64,22 +64,22 @@ a {
     }
     #Headerbild2 {
         width: 100%;
-        margin-left: -1.4%;
+        margin-left: -0.9%;
         margin-top: -5px;
     }
     #Video2 {
         width: 100%;
-        margin-left: -1.4%;
+        margin-left: -0.9%;
         margin-top: -5px;
     }
     #Video3 {
         width: 100%;
-        margin-left: -1.4%;
+        margin-left: -0.9%;
         margin-top: -5px;
     }
     #Headerbild1 {
         width: 100%;
-        margin-left: -1.4%;
+        margin-left: -0.9%;
         margin-top: -5px;
     }
     .content,
@@ -232,8 +232,8 @@ a {
     .Produkt2 b,
     .Produkt3 b {
         font-size: 25px;
-        margin-left: 190px;
-        display: block;
+        margin-left: 150px;
+        padding-left: 25px;
     }
     .Produkt1 p,
     .Produkt2 p,
@@ -245,8 +245,6 @@ a {
     .Produkt2 img,
     .Produkt3 img {
         width: 400px;
-        float: left;
-        display: block;
         padding-bottom: 20px;
     }
     .Produkt1 button,
@@ -260,25 +258,29 @@ a {
     .Testimonial1,
     .Testimonial2,
     .Testimonial3 {
-        float: left;
-        padding: 20px;
+        display: inline-block;
+        width: 30%;
+        padding-bottom: 50px;
+        padding-top: 20px;
     }
     .Testimonial1 img,
     .Testimonial2 img,
     .Testimonial3 img {
-        width: 30%;
+        width: 80%;
+        padding-bottom: 15px;
+        margin-left: 20%;
     }
     .Testimonial1 p,
-    i,
+    .Testimonial1 i,
     .Testimonial2 p,
-    i,
+    .Testimonial2 i,
     .Testimonial3 p,
-    i {
+    .Testimonial3 i {
         text-align: center;
-        font-size: 25px;
-        width: 25%;
         display: block;
-        margin-left: 30px;
+        font-size: 25px;
+        width: 90%;
+        margin-left: 17%;
     }
     .SocialMedia img {
         width: 5%;
@@ -289,23 +291,24 @@ a {
     }
     #Headerbild2 {
         width: 50%;
-        margin-right: 0.8%;
+        margin-right: 0.6%;
         margin-top: -0.2%;
         float: right;
     }
     #Video2 {
         width: 50%;
         margin-top: -0.6%;
-        margin-right: 0.8%;
+        margin-right: 0.6%;
         float: right;
     }
     #Video3 {
         width: 50%;
-        margin-left: -0.8%;
+        margin-left: -0.6%;
+        margin-top: -0.2%;
     }
     #Headerbild1 {
         width: 50%;
-        margin-left: -0.8%;
+        margin-left: -0.6%;
         margin-top: -0.6%;
         float: left;
     }
@@ -343,7 +346,7 @@ a {
     }
     .footer p {
         font-size: 12px;
-        margin-left: 7%;
+        margin-left: 9%;
         display: inline-block;
         line-height: 30px;
     }
