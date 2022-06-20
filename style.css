@@ -242,7 +242,6 @@
             .Produkt2,
             .Produkt3 {
                 display: inline-block;
-                padding-right: 10%;
             }
             .Produkt1 b,
             .Produkt2 b,
@@ -255,13 +254,14 @@
             .Produkt2 p,
             .Produkt3 p {
                 font-size: 18px;
-                margin-left: 125px;
+                margin-left: 30%;
             }
             .Produkt1 img,
             .Produkt2 img,
             .Produkt3 img {
                 width: 400px;
                 padding-bottom: 20px;
+                padding-right: 50%;
             }
             .Produkt1 button,
             .Produkt2 button,
@@ -269,7 +269,7 @@
                 width: 260px;
                 height: 50px;
                 font-size: 20px;
-                margin-left: 80px;
+                margin-left: 22%;
             }
             .Testimonial1,
             .Testimonial2,
@@ -390,6 +390,7 @@
             .content,
             .content1,
             .content2 {
+                font-family: sans-serif;
                 opacity: 0;
                 font-size: 30px;
                 position: absolute;
