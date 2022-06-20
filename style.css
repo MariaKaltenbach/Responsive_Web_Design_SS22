@@ -5,6 +5,7 @@
         }
         
         .topnav {
+            top: 9px;
             background-color: black;
             width: 100%;
             margin-top: -8px;
@@ -51,7 +52,8 @@
         }
         
         #Warenkorbinfo {
-            padding-top: 100px;
+            padding-top: 80px;
+            width: 90%;
         }
         /*Mobile*/
         
@@ -259,9 +261,8 @@
             .Produkt1 img,
             .Produkt2 img,
             .Produkt3 img {
-                width: 400px;
+                width: 135%;
                 padding-bottom: 20px;
-                padding-right: 50%;
             }
             .Produkt1 button,
             .Produkt2 button,
